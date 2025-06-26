@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="app-header">
       <div className="header-left">
-        <img src="/digeneric-dashboard-vite/dhriti-infotech-D-white.png" alt="Logo" className="logo" />
+        <img src="/di-generic-dashboard-vite/dhriti-infotech-D-white.png" alt="Logo" className="logo" />
         <span className="title">Dhriti Infotech<span className="ex"></span> </span>
       </div>
       <div className="header-right">
