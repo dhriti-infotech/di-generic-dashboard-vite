@@ -11,11 +11,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^10.4.2",
+    "@react-three/fiber": "^9.2.0",
     "diff": "^8.0.2",
     "react": "^19.1.0",
     "react-diff-view": "^3.3.1",
     "react-dom": "^19.1.0",
-    "recharts": "^3.0.0"
+    "recharts": "^3.0.0",
+    "three": "^0.178.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",

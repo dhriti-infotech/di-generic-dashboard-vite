@@ -1,0 +1,45 @@
+/* .digestive-system-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f0f9ff;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+    color: #05445e;
+  }
+  
+  canvas {
+    width: 100%;
+    height: 60vh;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .info-panel {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    text-align: left;
+  }
+  
+  .info-panel h2 {
+    margin-bottom: 12px;
+    color: #189ab4;
+  }
+  
+  .info-panel ul {
+    padding-left: 20px;
+    color: #333;
+    line-height: 1.6;
+  }
+   */

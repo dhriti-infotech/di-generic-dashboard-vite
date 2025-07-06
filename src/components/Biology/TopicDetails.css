@@ -1,0 +1,48 @@
+.topic-detail {
+    padding: 30px;
+    background-color: #ffffff;
+    animation: fadeIn 0.4s ease-out;
+  }
+  
+  .back-btn {
+    background-color: #636e72;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .level-tag {
+    color: white;
+    background-color: #6c5ce7;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin: 10px 0 20px;
+  }
+  
+  .teaching-content {
+    border-top: 1px solid #dcdde1;
+    padding-top: 20px;
+    animation: fadeUp 0.5s ease-in;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

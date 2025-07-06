@@ -1,0 +1,52 @@
+.biology-topics {
+    padding: 30px;
+    background: #f0f4f8;
+    text-align: center;
+  }
+  
+  .topics-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .topic-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .topic-card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .topic-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .topic-card .level {
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #dfe6e9;
+  }
+  
+  .topic-card.beginner .level {
+    background-color: #81ecec;
+  }
+  
+  .topic-card.intermediate .level {
+    background-color: #74b9ff;
+  }
+  
+  .topic-card.advanced .level {
+    background-color: #ff7675;
+  }
+  

@@ -20,9 +20,9 @@ const pieData = [
 ];
 
 const barData = [
-  { field: "tntCollectionId", changes: 10 },
-  { field: "pickupOrderType", changes: 7 },
-  { field: "stateOrProvinceCode", changes: 12 }
+  { field: "sampleId", changes: 10 },
+  { field: "orderTye", changes: 7 },
+  { field: "pinCode", changes: 12 }
 ];
 
 const COLORS = ["#4D148C", "#FFA500", "#D3D3D3"];
@@ -32,7 +32,7 @@ const PieChartDashboard = () => {
     <div style={{ display: "flex", gap: "40px", flexWrap: "wrap", justifyContent: "center", padding: "20px" }}>
       {/* Pie Chart */}
       <div style={{ width: "400px", height: "300px" }}>
-        <h3 style={{ textAlign: "center", color: "#4D148C" }}>Pickup Order Status</h3>
+        <h3 style={{ textAlign: "center", color: "#4D148C" }}>Order Status</h3>
         <ResponsiveContainer>
           <PieChart>
             <Pie

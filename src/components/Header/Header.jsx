@@ -6,7 +6,12 @@ const Header = () => {
     <header className="app-header">
       <div className="header-left">
         <img src="src/assets/images/dhriti-infotech-D-white.png" alt="Logo" className="logo" />
-        <span className="title">Dhriti Infotech<span className="ex"></span> </span>
+        <span className="title">
+          Dhriti Infotech
+          <img src="src/assets/images/cute-kid-reading-books.png" alt="Separator" className="separator-icon" />
+          PathShaala
+          <span className="ex"></span>
+        </span>
       </div>
       <div className="header-right">
         <button className="header-button">Option 1</button>
