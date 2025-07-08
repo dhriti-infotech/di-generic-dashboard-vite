@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import loadingImage from "../../assets/images/pathShaala.png"; // Update with actual path
+import loadingImage from "../../../public/pathShaala.png"; // Update with actual path
 import "./EnterPathShaala.css";
-import scienceBg from "../../assets/images/science-img-bg.jpg";
-import mathsBg from "../../assets/images/math-bg.avif";
+import scienceBg from "../../../public/science-img-bg.jpg";
+import mathsBg from "../../../public/math-bg.avif";
 import "./EnterPathShaala.css";
 import ScienceTopics from "../Science/ScienceTopics";
 

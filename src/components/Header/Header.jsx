@@ -1,14 +1,16 @@
 import React from "react";
 import "./Header.css";
+import logo from "../../../public/dhriti-infotech-D-white.png";
+import cutekid from "../../../public/cute-kid-reading-books.png";
 
 const Header = () => {
   return (
     <header className="app-header">
       <div className="header-left">
-        <img src="src/assets/images/dhriti-infotech-D-white.png" alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" className="logo" />
         <span className="title">
           Dhriti Infotech
-          <img src="src/assets/images/cute-kid-reading-books.png" alt="Separator" className="separator-icon" />
+          <img src={cutekid} alt="Separator" className="separator-icon" />
           PathShaala
           <span className="ex"></span>
         </span>

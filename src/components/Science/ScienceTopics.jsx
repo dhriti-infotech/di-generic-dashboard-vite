@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import physicsBg from "../../assets/images/physics-bg.jpg";
-import chemistryBg from "../../assets/images/chemistry.jpg";
-import biologyBg from "../../assets/images/biology.webp";
+import physicsBg from "../../../public/physics-bg.jpg";
+import chemistryBg from "../../../public/chemistry.jpg";
+import biologyBg from "../../../public/biology.webp";
 import BiologyTopics from "../Biology/BiologyTopics";
 import "./ScienceTopics.css";
 
